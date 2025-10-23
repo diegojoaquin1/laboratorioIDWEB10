@@ -1,0 +1,98 @@
+#contenedor{
+    background-color: green;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    padding: 16px;
+}
+#menuyfooter {
+    text-align: center;
+    color: black;
+    background-color: beige;
+    border: 2px solid black;
+    padding: 16px;
+}
+#division{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item{
+    flex: 1;
+    background: beige;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+#title{
+    text-align: center;
+}
+#division2{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.item2{
+    flex: 1;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+#division3{
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+.item3{
+    flex: 1;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+#division4{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    width: 500px;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction :row;
+    text-align: center;
+}
+#name{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+#mail{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+#msj{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
